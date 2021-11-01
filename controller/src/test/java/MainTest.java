@@ -17,7 +17,7 @@ import java.util.ArrayList;
 public class MainTest {
     ByteArrayOutputStream output = new ByteArrayOutputStream();
     final Injector injector = Guice.createInjector();
-    String filepath = "C:\\Users\\tonyb\\Downloads\\Library-master\\controller\\src\\test\\java\\books.txt";
+    String filepath = "src\\test\\java\\books.txt";
 
 
     @Before
