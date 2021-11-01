@@ -33,9 +33,9 @@ public class MainTest {
         String allbooks = "";
         for (int i = 0; i < capacity; i++){
             if (lib.books[i] == null){
-                allbooks += i+ " " + "null" + "\n";
+                allbooks += i+ " " + "null" + "\r\n";
             }else{
-                allbooks += i+ " " + lib.books[i].toString() + "\n";
+                allbooks += i+ " " + lib.books[i].toString() + "\r\n";
             }
 
         }
@@ -80,7 +80,7 @@ public class MainTest {
     public void testTakeBookOutput() {
         Library lib = injector.getInstance(LibraryFactory.class).library(150, filepath);
         Book book50 = lib.TakeBook(50);
-        assertEquals(50+ " " + book50.toString() + "\n", output.toString());
+        assertEquals(50+ " " + book50.toString() + "\r\n", output.toString());
     }
 
     @Test
