@@ -23,7 +23,7 @@ public class Application {
         }
 
         System.out.println("Введите полный путь к файлу, например:");
-        System.out.println("C:\\Users\\tonyb\\Downloads\\Library-master\\controller\\src\\main\\resources\\books.txt");
+        System.out.println("controller\\src\\main\\resources\\books.txt");
         String filepath = scanner.nextLine();
 
         final Injector injector = Guice.createInjector();
