@@ -17,7 +17,7 @@ import static org.junit.Assert.assertEquals;
 public final class MockTest {
     ByteArrayOutputStream output = new ByteArrayOutputStream();
     final Injector injector = Guice.createInjector();
-    String filepath = "controller\\src\\test\\java\\books.txt";
+    String filepath = "src\\test\\java\\books.txt";
 
     @Mock
     private @NotNull Book mockBook;
